@@ -1,0 +1,27 @@
+{
+  "name": "appropriate-filetering-front",
+  "version": "1.0.0",
+  "description": "checking negative or including bad word sentence. electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wewanna/appropriate-filetering-front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wewanna/appropriate-filetering-front/issues"
+  },
+  "homepage": "https://github.com/wewanna/appropriate-filetering-front#readme",
+  "devDependencies": {
+    "electron": "^5.0.6",
+    "electron-prebuilt": "^1.4.13"
+  },
+  "dependencies": {
+    "electron-browser-window-options": "^1.0.4"
+  }
+}

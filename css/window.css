@@ -1,0 +1,112 @@
+
+@font-face {
+    font-family: 'Intro';
+    src: url('font/Intro.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/NotoSansKR-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Light';
+    font-style: normal;
+    font-weight: 100;
+    src: url('font/NotoSansKR-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url('font/NotoSansKR-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Serif KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url('font/NotoSerifCJKkr-Regular-subset.otf') format('opentype');
+}
+
+body {
+    margin: 12.5px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    cursor: default;
+    user-select:none;
+    font-family: 'Noto Sans KR Light';
+    letter-spacing: -2px;
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: 'Noto Serif KR';
+    letter-spacing: -1.5px;
+    font-size: 20px;
+    font-weight: 200;
+    font-stretch: normal;
+    line-height: 30px;
+}
+
+
+.strong {
+    font-family: 'Noto Sans KR Bold';
+}
+
+.title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    -webkit-app-region: drag;
+    box-shadow: 0px 22px 55px 3px rgba(255,255,255,.8);
+}
+
+.traffic {
+    margin: 25px;
+    float:left;
+    -webkit-app-region: no-drag;
+}
+
+#close {
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    background-color: #f71a44;
+}
+
+.title_content {
+    cursor: default;
+    user-select:none;
+    color: #000;
+    font-family: 'Noto Serif KR';
+    letter-spacing: -.5px;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    text-align: center;
+    line-height: 65px;
+    margin-right: 60px;
+}
+
+
+.app {
+    margin: 12.5px;
+    margin-top: 85px;
+}
+
