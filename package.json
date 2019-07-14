@@ -22,6 +22,7 @@
     "electron-prebuilt": "^1.4.13"
   },
   "dependencies": {
+    "axios": "^0.19.0",
     "electron-browser-window-options": "^1.0.4"
   }
 }

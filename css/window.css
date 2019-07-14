@@ -159,3 +159,12 @@ h2 {
     width: 90%;
     outline: 0;
 }
+
+.good {
+    background-color: cyan;
+}
+
+.bad {
+    background-color: red;
+    color: white;
+}
