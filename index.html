@@ -14,8 +14,23 @@
   </head>
   <body>
     <div class="app">
-    
+        <div class="left">
+            <div class="divide-title">필터링 할 문장</div>
+            <div id="ori-sentence-list" class="divide-content">
+            </div>
+            <div class="divide-input">
+                <input type="text" id="ori-sentence-input" placeholder="문장을 입력해주세요" onkeydown="JavaScript:addSentence();">
+            </div>
+        </div>
+        <div class="right">
+                <div class="divide-title">필터링 된 문장</div>
+                <div id="result-sentence-list" class="divide-content">
+                    
+                </div>
+        </div>
+    </div>
   </body>
 
 <script type="text/javascript" src="js/window.js"></script>
+<script type="text/javascript" src="js/sentence.js"></script>
 </html>
